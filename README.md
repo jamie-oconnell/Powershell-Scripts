@@ -8,8 +8,6 @@ Small config file named _sccm-config.json_ contians common variables to be used 
 
 ## Script Reference
 
----
-
 ### Get-CollectionDeviceInfo.ps1
 
 Params:
@@ -21,7 +19,7 @@ Given a device collection id, exports a csv file with Name, ADLastLogonTime, ADS
 
 Useful for getting a report of device online state from a particular colleciton.
 
----
+<br>
 
 ### Get-CollectionsWithDeployment.ps1
 
@@ -33,7 +31,7 @@ Returns a CSV with Collections that have at least one deployment
 
 Useful for getting a report of collections that have a deployment tied to them.
 
----
+<br>
 
 ### Get-CollectionsWithoutDeployment.ps1
 
@@ -45,7 +43,7 @@ Returns a CSV with Collections that have no deployments.
 
 Useful for getting a report of collections that can be cleaned up.
 
----
+<br>
 
 ### Get-CollectionsWithoutDeployment.ps1
 
